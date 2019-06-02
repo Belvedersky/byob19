@@ -1,0 +1,26 @@
+
+
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>BYOB 2019</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+<!--    <script src="https://cdn.glitch.com/c0aacf15-5062-4c78-9a62-ec53f3320bfa%2Fp5.asciiart.js?1559140718273"></script>  -->
+  <script src="https://cdn.jsdelivr.net/gh/bmoren/p5.collide2D@0.6/p5.collide2d.js"></script>
+<!--   <script src="addons/p5.dom.js"> -->
+  <script src="/sketch.js"></script>
+  <style>
+    canvas { position:fixed; top:0; left:0; z-index:1; z-index: 0;}
+    #contenu { position:relative; z-index:0; }
+    #qrcode {z-index: 999999;}
+    #defaultCanvas0{ z-index: 0;}
+  </style>
+</head>
+<body>
+  <a id="qrcode" href="http://qrcoder.ru" target="_blank"><img src="http://qrcoder.ru/code/?https%3A%2F%2Ft.me%2Fchat_wall_bot&4&0" width="132" height="132" border="2" title="QR код"></a>
+    <div id="contenu"></div>
+</body>
+</html>
